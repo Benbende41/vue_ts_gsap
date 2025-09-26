@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { storeToRefs } from "pinia";
 import { useUserStore } from "@/piniaStore";
-import box from "@/components/boxGsapTo.vue";
+import box from "@/components/box.vue";
 defineOptions({
   name: "Home",
 });
