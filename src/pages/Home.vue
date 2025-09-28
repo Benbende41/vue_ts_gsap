@@ -1,12 +1,14 @@
 <template>
-  <div class="flex-center  h-[100vh]">
-    <h1 class="text-3xl text-indigo-300">Hello,GSAP!</h1>
-  </div>
+  <section>
+    <Hero class="h-[100vh] flex-center" />
+    <div class="h-dvh bg-black"></div>
+  </section>
 </template>
 
 <script setup lang="ts">
 import { ScrollTrigger, SplitText } from "gsap/all";
 import gsap from "gsap";
+import Hero from "@/components/Hero.vue";
 defineOptions({
   name: "Home",
 });
