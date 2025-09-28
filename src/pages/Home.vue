@@ -1,6 +1,6 @@
 <template>
   <section>
-    <Hero class="h-[100vh] flex-center" />
+    <Hero />
     <div class="h-dvh bg-black"></div>
   </section>
 </template>
